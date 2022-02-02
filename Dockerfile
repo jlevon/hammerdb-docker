@@ -31,7 +31,7 @@ RUN apt-get update && apt-get install -y mysql-community-client="${MYSQL_VERSION
 RUN apt-get install -y libpq-dev
 
 # HammerDB
-ENV HAMMER_VERSION=3.3
+ENV HAMMER_VERSION=4.3
 ENV HAMMER_URI=https://github.com/TPC-Council/HammerDB/releases/download
 
 RUN apt-get install -y curl
